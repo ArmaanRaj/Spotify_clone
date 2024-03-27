@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utility.css">
+    <!-- linking circular sp  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left border bg-black flow-circular-regular roboto-regular">
+            <div class="home bg-grey rounded m-2 p-1">
+                <div class="logo ">
+                    <img  width="110" class="invert" src="logo.svg " alt="logo">
+                </div>
+                <ul>
+                    <li><img class="invert m-1" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert m-1" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-2 p-1">
+                <div class="heading">
+                    <img class="invert" src="library.svg" alt="lib">
+                    <h4>Your Library</h4>
+                </div>
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer flow-circular-regular roboto-regular">
+                    <div><a href="https://www.spotify.com/in-en/legal"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded p-1">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="signup_btn flow-circular-regular roboto-regular">Signup</button>
+                    <button type="button" class="login_btn flow-circular-regular roboto-regular">Log in</button>
+                </div>
+            </div>
+            <div class="spotify_playlist flow-circular-regular roboto-regular">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                                fill="none">
+                                <!-- Circular background in green -->
+                                <circle cx="18" cy="18" r="17" fill="#4CAF50" />
+
+                                <!-- Play triangle in black (scaled down) -->
+                                <polygon points="12 8 12 28 28 18" fill="#000000" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1"
+                            alt="For All The Dogs"
+                            srcset="https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1 150w, https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1 300w, https://i.scdn.co/image/ab67616d0000b2737d384516b23347e92a587ed1 320w, https://i.scdn.co/image/ab67616d0000b2737d384516b23347e92a587ed1 640w"
+                            sizes="(min-width: 1280px) 232px, 192px">
+                        <h3>For all the Dogs</h3>
+                        <p>Drake</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                                fill="none">
+                                <!-- Circular background in green -->
+                                <circle cx="18" cy="18" r="17" fill="#4CAF50" />
+
+                                <!-- Play triangle in black (scaled down) -->
+                                <polygon points="12 8 12 28 28 18" fill="#000000" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1"
+                            alt="For All The Dogs"
+                            srcset="https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1 150w, https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1 300w, https://i.scdn.co/image/ab67616d0000b2737d384516b23347e92a587ed1 320w, https://i.scdn.co/image/ab67616d0000b2737d384516b23347e92a587ed1 640w"
+                            sizes="(min-width: 1280px) 232px, 192px">
+                        <h3>For all the Dogs</h3>
+                        <p>Drake</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar flow-circular-regular roboto-regular">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img id="previous" src="prev.svg" alt="prev_btn">
+                        <img id="play" src="play.svg" alt="play_btn">
+                        <img id="next" src="next.svg" alt="next_btn">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
